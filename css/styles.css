@@ -1,0 +1,11 @@
+* {
+    --Violeta: #8B48BF;
+    --Celeste-brillante: #3CDDF3;
+    --Azul-grisaceo-oscuro: #1E1E26;
+    --Azul-muy-oscuro: #232851;
+    --Variante-gris-claro: rgb (249, 249, 249);
+}
+html {
+    font-size: 100%;
+    
+}
