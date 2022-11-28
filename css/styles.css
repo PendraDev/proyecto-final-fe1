@@ -47,8 +47,40 @@ a, a:visited, a:active {
 }
 
 /*header*/
+header {
+    display: flex;
+    width: 80%;
+    min-width: 320px;
+    max-width: 450px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    margin-inline: auto;
+    
+}
 
+header div {
+    width: 90%;
+    max-width: 450px;
+    margin-inline: auto;
+}
 
+nav {
+    display: none;
+}
+
+nav img {
+    width: 24px;
+    height: 24px;
+}
+
+header button {
+    display: none;
+    
+}
+
+header .menu-icon {
+    text-align: right;
+}
 /*main*/
 main {
     width: 100%;
