@@ -207,3 +207,34 @@ main a {
     color: #B3B2B7;
 
 }
+
+/*section 3*/
+
+.main__container-section-3 {
+    width: 100vw;
+    margin-top: 65px;
+}
+.main__container-section-3 h2 {
+    text-align: center;
+    font-size: 2.4506rem;
+    line-height: 3.8381rem;
+    margin-bottom: 70px ;
+}
+.__container-box--card {
+    background-color: var(--Variante-gris-claro);
+    text-align: center;
+    min-width: 320px;
+    max-width: 480px;
+}
+.__container-box--card img {
+    transform: translateY(-35px);
+}
+.__container-box--card p {
+    padding: 10px 19px 20px 19px;
+    font-weight: 500;
+    line-height: 1.5662rem;
+    color: #b9b9c1;
+}
+.__container-box .card-1, .card-3 {
+    display: none;
+}
