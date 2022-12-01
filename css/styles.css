@@ -29,6 +29,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Be Vietnam Pro', sans-serif;
+    overflow-x: hidden;
 }
 
 h1, h2, h3 {
@@ -117,7 +118,7 @@ main p {
     padding-left: 15px;
 }
 
-main button {
+main .btn {
     width: 8.375rem;
     height: 2.75rem;
     background-color: var(--Violeta);
@@ -237,4 +238,26 @@ main a {
 }
 .__container-box .card-1, .card-3 {
     display: none;
+}
+
+/*section 3*/
+
+.btn__container {
+    width: 100vw;
+}
+.btn-2 {
+    display: flex;
+    width: 8.375rem;
+    height: 2.75rem;
+    
+    margin: 45px auto;
+    background-color: var(--Violeta);
+    border-radius: 25px;
+    border: none;
+   
+}
+
+.btn-2 a {
+    color: white;
+    margin: auto;
 }
